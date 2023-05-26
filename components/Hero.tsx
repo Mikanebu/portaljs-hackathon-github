@@ -9,7 +9,7 @@ export default function Hero( {
   titleA="",
   highlightedText = "Welcome to the UK economics data portal",
   titleB="",
-  subtext = "Using open core datasets we can discover the connection between GDP per capita data to house price in UK",
+  subtext = "We do analytics based on commonly-used datasets in high quality, easy-to-use & packaged form which has rich metadata",
 }: HeroPropType) {
   return (
     <div className="overflow-y-hidden bg-gray-100 pb-12 lg:min-h-[700px]">
