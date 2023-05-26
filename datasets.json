@@ -1,0 +1,29 @@
+[
+  {
+    "owner": "Mikanebu",
+    "branch": "main",
+    "repo": "gdp-uk",
+    "description": "UK Real GDP since 1948 from the Office of National Statistics",
+    "name":"UK Real GDP",
+    "files": ["data/data.csv"],
+    "readme": "README.md"
+  },
+  {
+    "owner": "Mikanebu",
+    "branch": "main",
+    "repo": "house-prices-uk",
+    "description": "UK house prices since 1953 as monthly time-series. Data comes from the Nationwide",
+    "name":"UK house prices",
+    "files": ["data/data.csv"],
+    "readme": "README.md"
+  },
+  {
+    "owner": "Mikanebu",
+    "branch": "main",
+    "repo": "population",
+    "description": "Population figures for countries, regions (e.g. Asia) and the world",
+    "name":"Population",
+    "files": ["data/population.csv"],
+    "readme": "README.md"
+  }
+]
