@@ -7,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write .",
-    "mddb": "mddb content",
-    "prebuild": "npm run mddb"
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@flowershow/core": "^0.4.13",
