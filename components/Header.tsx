@@ -6,7 +6,7 @@ export default function Header({ className = "" }) {
       <nav className="w-full border-b">
         <div className="container mx-auto flex items-center justify-between px-6 py-5 md:py-0">
           <div aria-label="Home. logo">
-            <h2 className="text-lg font-bold">Home</h2>
+              <a className="text-lg font-bold"href="/">Home</a>
           </div>
           <div>
             <button
@@ -60,13 +60,13 @@ export default function Header({ className = "" }) {
               </button>
               <ul className="fixed bottom-0 left-0 right-0 top-0 z-20 flex flex-col items-center justify-center bg-white py-10 text-3xl md:relative md:flex md:flex-row md:bg-transparent md:text-base">
                 <li className="cursor-pointer pt-10 text-base text-gray-700 hover:text-gray-900 md:pt-0 lg:text-lg">
-                  <a href="#">PortalJS</a>
+                  <a href="https://portaljs.org/">PortalJS</a>
                 </li>
                 <li className="cursor-pointer pt-10 text-base text-gray-700 hover:text-gray-900 md:ml-5 md:pt-0 lg:ml-10 lg:text-lg">
-                  <a href="#">Posts</a>
+                  <a href="https://portaljs.org/blog">Posts</a>
                 </li>
                 <li className="cursor-pointer pt-10 text-base text-gray-700 hover:text-gray-900 md:ml-5 md:pt-0 lg:ml-10 lg:text-lg">
-                  <a href="#">API</a>
+                  <a href="https://storybook.portaljs.org/">Storybook</a>
                 </li>
               </ul>
             </div>
